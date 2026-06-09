@@ -58,12 +58,6 @@ export const content = {
         { time: "6:30 PM", title: "Reception & Dinner", location: "Las Brisas Ballroom", description: "Dinner, dancing, and celebration." },
       ],
     },
-    {
-      day: "Sunday, March 7, 2027",
-      events: [
-        { time: "10:00 AM", title: "Farewell Brunch", location: "Pool deck", description: "Casual send-off before everyone heads home." },
-      ],
-    },
   ],
 
   honeyfund: {
@@ -86,11 +80,9 @@ export const content = {
 
   registry: {
     intro: "We've also registered at a few traditional registries.",
-    // TODO: replace # with real registry URLs when set up
     links: [
-      { name: "Amazon", url: "#" },
-      { name: "Target", url: "#" },
-      { name: "Crate & Barrel", url: "#" },
+      { name: "Target", url: "https://www.target.com/gift-registry/gift/rhodeswedding2027" },
+      { name: "Crate & Barrel", url: "https://www.crateandbarrel.com/gift-registry/hannah-tilander-and-aaron-rhodes/r7565848" },
     ],
   },
 
