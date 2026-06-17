@@ -42,11 +42,13 @@ export function Hero() {
             alt={photos[1]?.alt}
             className="absolute bottom-0 right-0 w-3/5 h-3/5 rotate-[4deg] z-20"
           />
-          <PhotoTile
-            src={photos[2]?.src}
-            alt={photos[2]?.alt}
-            className="absolute top-1/3 right-8 w-2/5 h-2/5 rotate-[-1deg] z-0 hidden sm:block"
-          />
+          {photos[2] && (
+            <PhotoTile
+              src={photos[2]?.src}
+              alt={photos[2]?.alt}
+              className="absolute top-1/3 right-8 w-2/5 h-2/5 rotate-[-1deg] z-0 hidden sm:block"
+            />
+          )}
         </div>
       </div>
     </header>

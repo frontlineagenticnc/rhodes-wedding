@@ -16,12 +16,17 @@ export const content = {
     url: "https://www.elconresort.com/",
   },
 
-  // PLACEHOLDER — drop real engagement photos into public/photos/
-  // and update filenames here after the shoot.
+  // Engagement photos live in public/photos/. Add a hero-3.jpg entry here
+  // to fill the third (desktop-only) collage tile.
   heroPhotos: [
-    { src: "/photos/hero-1.jpg", alt: "Aaron and Hannah — placeholder 1" },
-    { src: "/photos/hero-2.jpg", alt: "Aaron and Hannah — placeholder 2" },
-    { src: "/photos/hero-3.jpg", alt: "Aaron and Hannah — placeholder 3" },
+    {
+      src: "/photos/hero-1.jpg",
+      alt: "Aaron and Hannah holding hands on a zipline over the mountains at sunset",
+    },
+    {
+      src: "/photos/hero-2.jpg",
+      alt: "Aaron and Hannah after the proposal, holding a “She Said Yes” sign",
+    },
   ],
 
   travel: {
