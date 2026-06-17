@@ -27,6 +27,30 @@ export const content = {
       src: "/photos/hero-2.jpg",
       alt: "Aaron and Hannah after the proposal, holding a “She Said Yes” sign",
     },
+    {
+      src: "/photos/hero-3.jpg",
+      alt: "Aaron and Hannah on the zipline platform, showing off the new ring",
+    },
+  ],
+
+  // Candid photos sprinkled between sections on the landing page.
+  // Captions are easy to tweak — change the text or set to "" to hide.
+  moments: [
+    {
+      src: "/photos/moment-1.jpg",
+      alt: "Aaron and Hannah dressed up for a night out",
+      caption: "Date night",
+    },
+    {
+      src: "/photos/moment-2.jpg",
+      alt: "Aaron and Hannah at home with their dog",
+      caption: "Our favorite third wheel",
+    },
+    {
+      src: "/photos/moment-3.jpg",
+      alt: "Aaron and Hannah all dressed up at a formal event",
+      caption: "Cleaned up nicely",
+    },
   ],
 
   travel: {
