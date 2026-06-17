@@ -43,8 +43,8 @@ export const content = {
     },
     {
       src: "/photos/moment-2.jpg",
-      alt: "Aaron and Hannah at home with their dog",
-      caption: "Our favorite third wheel",
+      alt: "Aaron and Hannah at home with their dog Owen",
+      caption: "Owen, our favorite third wheel",
     },
     {
       src: "/photos/moment-3.jpg",
